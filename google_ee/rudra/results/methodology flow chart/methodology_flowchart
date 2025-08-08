@@ -1,0 +1,15 @@
+digraph {
+	A [label="Research Problem"]
+	B [label="Literature Review"]
+	C [label="Data Collection"]
+	D [label=Preprocessing]
+	E [label=Analysis]
+	F [label=Results]
+	G [label=Conclusion]
+	A -> B
+	B -> C
+	C -> D
+	D -> E
+	E -> F
+	F -> G
+}
